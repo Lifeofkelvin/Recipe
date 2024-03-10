@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background:  hsl(30, 54%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.container {
+    background: hsl(0, 0%, 100%);
+    width: 800px;
+    display: block;
+    justify-content: flex-start;
+    padding: 2rem;
+    border-radius: 30px;
+}
+.container img {
+    width: 740px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.content .head {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.head h1{
+    font-family: "Young Serif", serif;
+    margin: 1rem 0;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: hsl(24, 5%, 18%);
+    font-weight: 500;
+}
+.head p {
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+}
+.time {
+    background: hsl(30, 54%, 90%);
+    padding: 1.5rem;
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+}
+.time h2 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+.time ul {
+    margin-left: 2rem;
+}
+.time ul li {
+    color: hsl(30, 10%, 34%);
+    margin-bottom: .5rem;
+    font-family: "Outfit", sans-serif;
+}
+.spices {
+    padding: 20px;
+}
+.spices h2 {
+    font-family: "Young Serif", serif;
+    margin: 1rem 0;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+}
+.spices ul {
+    margin-left: 2rem;
+}
+.spices ul li {
+    color: hsl(30, 10%, 34%);
+    margin-bottom: .5rem;
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+}
+hr {
+    background: hsl(30, 18%, 87%);
+    border: none;
+    outline: none;
+    height: 1px;
+    margin-bottom: .5rem;
+}
+.instructions {
+    padding: 20px;
+}
+.instructions h2 {
+    font-family: "Young Serif", serif;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+}
+.instructions p {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 1rem;
+}
+.instructions p span {
+    font-weight: 600;
+}
+
+.nutrients {
+    padding: 20px;
+}
+.nutrients h2 {
+    font-family: "Young Serif", serif;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+}
+.nutrients p {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 1rem;
+}
+.value {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: .5rem;
+}
+.value span {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+}
+.value b {
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+    font-family: "Outfit", sans-serif;
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        display: inline-block;
+    }
+    .container {
+        width: 400px;
+    }
+    .container img {
+        width: 350px;
+    }
+    .head h1 {
+        font-size: 30px;
+    }
+}
